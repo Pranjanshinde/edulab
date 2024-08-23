@@ -20,6 +20,6 @@ app.listen(8080,async(req,res)=>{
         await connection;
         console.log("connected");
     } catch (error) {
-        res.send({"msg":error.message})
+        res.send({"msg":error.message});
     }
 });
